@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+    <datastore-index kind="UserBookmarkTag" ancestor="true" source="auto">
+        <property name="userBookmarkTags_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="UserBookmarkTag" ancestor="true" source="manual">
+        <property name="tagKey" direction="asc"/>
+        <property name="creationDate" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Role" ancestor="true" source="auto">
+        <property name="authorities_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="Bookmark" ancestor="true" source="auto">
+        <property name="bookmarks_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="Bookmark" ancestor="false" source="auto">
+        <property name="userKey" direction="asc"/>
+        <property name="favorite" direction="asc"/>
+        <property name="created" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="Bookmark" ancestor="true" source="auto">
+        <property name="userKey" direction="asc"/>
+        <property name="favorite" direction="asc"/>
+        <property name="created" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="Bookmark" ancestor="true" source="manual">
+        <property name="userKey" direction="asc"/>
+        <property name="created" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="Bookmark" ancestor="true" source="manual">
+        <property name="userKey" direction="asc"/>
+        <property name="commaSeparatedTags" direction="asc"/>
+        <property name="created" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="User" ancestor="false" source="auto">
+        <property name="username" direction="asc"/>
+        <property name="confirmed" direction="asc"/>
+        <property name="token" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>
