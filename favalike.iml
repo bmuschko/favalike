@@ -19,6 +19,11 @@
         </webroots>
         <sourceRoots />
       </configuration>
+      <facet type="google-app-engine" name="Google App Engine">
+        <configuration>
+          <sdk-home-path>$APPENGINE_HOME$</sdk-home-path>
+        </configuration>
+      </facet>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -43,18 +48,18 @@
       <library name="Grails User Library">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/appengine-tools-api.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/orm/jdo2-api-2.3-eb.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/orm/geronimo-jta_1.1_spec-1.1.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/orm/geronimo-jpa_3.0_spec-1.1.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/orm/datanucleus-jpa-1.1.5.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/orm/datanucleus-core-1.1.5.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/orm/datanucleus-appengine-1.0.7.final.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/jsr107cache-1.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/appengine-jsr107cache-1.3.8.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/appengine-api-labs-1.3.8.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/user/appengine-api-1.0-sdk-1.3.8.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../tools/appengine-java-sdk-1.3.8/lib/impl/appengine-local-runtime.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/appengine-tools-api.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/orm/jdo2-api-2.3-eb.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/orm/geronimo-jta_1.1_spec-1.1.1.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/orm/geronimo-jpa_3.0_spec-1.1.1.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/orm/datanucleus-jpa-1.1.5.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/orm/datanucleus-core-1.1.5.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/orm/datanucleus-appengine-1.0.8.final.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/jsr107cache-1.1.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/appengine-jsr107cache-1.4.0.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/appengine-api-labs-1.4.0.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/user/appengine-api-1.0-sdk-1.4.0.jar!/" />
+          <root url="jar://$APPENGINE_HOME$/lib/impl/appengine-local-runtime.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -27,5 +27,3 @@ grails.project.dependency.resolution = {
     }
 
 }
-
-google.appengine.sdk = "/Users/Ben/Dev/tools/appengine-java-sdk-1.3.8"
