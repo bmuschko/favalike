@@ -13,13 +13,14 @@ set the variable under `~/.MacOSX/environment.plist`:
           <string>/Users/johndoe/dev/tools/appengine-java-sdk-1.4.0</string>
        </dict>
     </plist>
+    
 * Run the application with `grails run-app`.
 
 ## Deployment
 
-* Due to a [bug](http://jira.codehaus.org/browse/GRAILSPLUGINS-1905) you have to set the Grails environment variable to
+Due to a [bug](http://jira.codehaus.org/browse/GRAILSPLUGINS-1905) you have to set the Grails environment variable to
 `production` when packaging the app.
 
-1. grails -Dgrails.env=production app-engine package
-2. appcfg.sh update ./target/war
+    grails -Dgrails.env=production app-engine package
+    appcfg.sh update ./target/war
 
