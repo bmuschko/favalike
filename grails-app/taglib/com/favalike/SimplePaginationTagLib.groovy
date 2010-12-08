@@ -4,7 +4,7 @@ import com.favalike.util.PaginationHelper
 import com.favalike.util.StringUtils
 
 class SimplePaginationTagLib {
-    static namespace = "ezb"
+    static namespace = "fav"
 
     def simplePagination = { attrs, body ->
         def total = attrs.total

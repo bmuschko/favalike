@@ -46,7 +46,7 @@
       <input type="hidden" id="lastRecordNumber" name="lastRecordNumber" value="${bookmarks.lastRecordNumber}">
    </form>
    <div class="pagination-container">
-      <ezb:simplePagination offset="${bookmarks.offset}" total="${bookmarks.total}" max="${bookmarks.max}" function="${ajaxFunctionName}" parameters="${ajaxFunctionParams}"/>
+      <fav:simplePagination offset="${bookmarks.offset}" total="${bookmarks.total}" max="${bookmarks.max}" function="${ajaxFunctionName}" parameters="${ajaxFunctionParams}"/>
    </div>
 </g:if>
 <g:else>
