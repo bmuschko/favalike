@@ -7,5 +7,6 @@ class UrlMappings {
 	  }
       "/"(controller: "index", action: "index")
 	  "500"(view:'/error')
+      "/_ah/warmup"(controller: "user", action: "ping")
 	}
 }

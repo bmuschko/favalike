@@ -23,6 +23,7 @@ beans = {
         security.'intercept-url'('pattern': '/user/resendmail*', 'filters': 'none')
         security.'intercept-url'('pattern': '/user/confirm*', 'filters': 'none')
         security.'intercept-url'('pattern': '/favicon.ico', 'filters': 'none')
+        security.'intercept-url'('pattern': '/_ah/warmup', 'filters': 'none')
         security.'intercept-url'('pattern': '/**/*.html', 'access': 'ROLE_USER')
         security.'intercept-url'('pattern': '/**/*.gsp', 'access': 'ROLE_USER')
         security.'intercept-url'('pattern': '/**', 'access': 'ROLE_USER')

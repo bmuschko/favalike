@@ -18,4 +18,5 @@
      <include path="/images/**.*" />
      <include path="/js/**.*" expiration="1d" />    
   </static-files>
+  <warmup-requests-enabled>true</warmup-requests-enabled>
 </appengine-web-app>
